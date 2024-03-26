@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(243, 222, 222), rgb(255, 255, 255));
+}
+
+.wrapper {
+    margin-top: 100px;
+    text-align: center; 
+    position: relative; 
+}
+
+#neko-img {
+    display: block; 
+    margin: 0 auto; 
+    width: 300px
+}
+
+.in-wrapper {
+    border-radius: 50px;
+    margin: 0 auto;
+    border: 7px solid black;
+    height: 350px;
+    width:1250px; 
+    background: rgba(255, 0, 0, 0.45);
+    margin-top: -17px;
+    z-index: 2;
+}
+
+#maneki-h1, #maneki-help, #twitter {
+    font-family: 'MADE Waffle Soft';
+    
+}
+
+#maneki-h1 {
+    margin-top: 5px;
+    font-size: 150px;
+    color: rgb(255, 235, 235);
+    -webkit-text-stroke: 7px black;
+    display: inline-block; 
+    text-shadow: 0 0 3px black; 
+}
+
+#maneki-help {
+    margin-top: -90px; 
+    position: relative;
+    font-size: 30px;
+    color: #191919;
+}
+
+#twitter {
+    margin-top: -2000px; 
+    position: relative;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #191919;
+}
+
+#twitter:hover {
+    color: rgba(0, 0, 0, 0.885);
+    transition: color 0.5s;
+}
+
+.link {
+    margin-top: 20px;
+}
+
+#neko-img:hover {
+    animation: shake 0.5s ease-in-out infinite; 
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-3px); }
+    100% { transform: translateX(0); }
+}
+
+@media (max-width: 500px) { 
+
+    .wrapper {
+        margin-top: 50px;
+        text-align: center; 
+        position: relative; 
+    }
+    
+    #neko-img {
+        display: block; 
+        margin: 0 auto; 
+        width: 200px
+    }
+    
+    .in-wrapper {
+        border-radius: 50px;
+        margin: 0 auto;
+        border: 7px solid black;
+        height: 350px;
+        width:350px; 
+        background: rgba(255, 0, 0, 0.45);
+        margin-top: -17px;
+        z-index: 2;
+    }
+    
+    #maneki-h1, #maneki-help, #twitter {
+        font-family: 'MADE Waffle Soft';
+        
+    }
+    
+    #maneki-h1 {
+        margin-top: 10px;
+        font-size: 50px;
+        color: rgb(255, 235, 235);
+        -webkit-text-stroke: 4px black;
+        display: inline-block; 
+        text-shadow: 0 0 2px black; 
+    }
+    
+    #maneki-help {
+        margin-top: 0px; 
+        position: relative;
+        font-size: 15px;
+        color: #191919;
+    }
+    
+    #twitter { 
+        position: relative;
+        font-size: 15px;
+        text-decoration: underline;
+        color: #191919;
+    }
+    
+    #twitter:hover {
+        color: rgba(0, 0, 0, 0.885);
+        transition: color 0.5s;
+    }
+    
+    .link {
+        margin-top: 80px;
+    }
+    
+    #neko-img:hover {
+        animation: shake 0.5s ease-in-out infinite; 
+    }
+    
+ }

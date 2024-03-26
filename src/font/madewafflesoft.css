@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'MADE Waffle Soft';
+    src: local('MADE Waffle Soft'), local('MADEWaffleSoft'), url('Madewafflesoft.woff2') format('woff2'), url('Madewafflesoft.woff') format('woff'), url('Madewafflesoft.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
